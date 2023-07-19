@@ -4,7 +4,9 @@ import com.jpah2.domains.User;
 import com.jpah2.repository.UserRepository;
 import com.jpah2.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
+@Service
 public class UserServiceImpl implements UserService {
 
 
