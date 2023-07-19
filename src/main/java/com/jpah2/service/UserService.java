@@ -4,6 +4,6 @@ import com.jpah2.domains.User;
 
 public interface UserService {
 
-  public Boolean save(User user);
+  public User save(User user);
 
 }
